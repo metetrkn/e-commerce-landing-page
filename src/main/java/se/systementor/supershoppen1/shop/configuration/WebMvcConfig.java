@@ -48,25 +48,4 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor());
     }
-
-
-
-
-
-    // private static final String[] CLASSPATH_RESOURCE_LOCATIONS = {
-    //     "classpath:/META-INF/resources/", "classpath:/resources/",
-    //     "classpath:/static/", "classpath:/public/" };
-
-    // @Override
-    // public void addResourceHandlers(ResourceHandlerRegistry registry) {
-
-    //     registry
-    //     .addResourceHandler("/js/**")
-    //     .addResourceLocations("/js/")
-    //     .setCachePeriod(3600)
-    //     .resourceChain(true)
-    //     .addResolver(new PathResourceResolver());        
-    //     registry.addResourceHandler("/**")
-    //         .addResourceLocations(CLASSPATH_RESOURCE_LOCATIONS);
-    // }
 }

@@ -60,7 +60,7 @@ public class UserAccount {
 
     public List<String> getRoles() 
     {
-        String[] elements = rolesCsv.split(","); // step two : convert String array to list of String
+        String[] elements = rolesCsv.split(",");
         return Arrays.asList(elements);
     }
   

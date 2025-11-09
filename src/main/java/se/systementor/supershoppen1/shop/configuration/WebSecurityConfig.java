@@ -27,15 +27,6 @@ public class WebSecurityConfig {
         auth
                 .userDetailsService(userDetailsService)
                 .passwordEncoder(passwordEncoder);
-        //   .inMemoryAuthentication()
-        //   .passwordEncoder(passwordEncoder)
-        //   .withUser("user@user.se")
-        //   .password(passwordEncoder.encode("stefan"))
-        //   .roles("USER")
-        //   .and()
-        //   .withUser("admin@user.se")
-        //   .password(passwordEncoder.encode("stefan"))
-        //   .roles("ADMIN");
     }
 
 
