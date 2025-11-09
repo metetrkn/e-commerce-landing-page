@@ -22,7 +22,7 @@ JavaShop is a modern e-commerce platform built with Spring Boot, offering a robu
   - Spring Security
   - Spring Data JPA
   - Hibernate 5.6.15
-  - PostgreSQL 42.7.2
+  - PostgreSQL 17
 
 - **Frontend**
   - Thymeleaf
